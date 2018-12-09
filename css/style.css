@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: "Nunito",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: #f7f7f7;
+}
+
+
+h1 {
+    font-size: 9vh;
+    line-height: 52px;
+    font-weight: 300;
+    /* font-family: 'Open Sans'; */
+    letter-spacing: -1px;
+}
+
+#header{
+    background-image: url('../img/about/bg-about.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+#header .header {
+    background-color: rgba(39, 39, 37, 0.7);
+    height: 100%;
+    
+    /* utilisation de flex pour la disposition des elements */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+
+
+
+
+#header .btn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .button{
+    text-decoration: none;
+    border: #ffffff 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#header  .btn1:hover{
+    background: #ffffff;
+    color: #000000;
+}
+#header .btn2 {
+    background: #b91744;
+    border: #b91744;
+}
+#header  .btn2:hover{
+    background: #ffffff;
+    color: #b91744;
+}
+
+
+
+
+
+
+
+
+#about{
+    /* margin-top: 7em; */
+    display: flex;
+    margin: 2em;
+    padding: 0.5em;
+    flex-direction: row;
+    
+}
+#about h2 {
+    text-align: center;
+    font-size: 6vh;
+    font-weight: 10;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+
